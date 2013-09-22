@@ -2,5 +2,5 @@ package relicious
 
 class Favourite {
 
-    static belongsTo = [recipe:Recipe, user:User] 
+    static belongsTo = [recipe:Recipe, user:User] //XAVIERWOOO
 }
