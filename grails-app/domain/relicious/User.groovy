@@ -21,10 +21,7 @@ class User {
     Boolean isAdmin
     Boolean signedInViaFacebook
         
-     static hasMany = [recipeBook:RecipeBook]
-     static hasMany = [recipe:Recipe]
-     static hasMany = [badge:Badge]
-     static hasMany = [message:Message]
+    static hasMany = [recipeBook:RecipeBook, recipe:Recipe, badge:Badge, message:Message]
 
     static constraints = {
     firstName (size: 1..32,blank:false)
