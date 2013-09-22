@@ -11,4 +11,3 @@ class RecipeBook {
     name(blank:false, size:1..32)
 
 }
-}
